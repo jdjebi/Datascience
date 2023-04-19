@@ -1,0 +1,19 @@
+100 peu puissnate
+
+100-130 moyenne
+
+plus de 130 puissante
+
+catégorie des vehicule par puissance
+
+Très faible puissance : moins de 50 chevaux
+Faible puissance : de 50 à 99 chevaux
+Puissance moyenne : de 100 à 149 chevaux
+Puissance élevée : de 150 à 199 chevaux
+Très puissante : plus de 200 chevaux
+
+Voitures économiques : véhicules courts, faible puissance et coût inférieur à 20 000 euros
+Voitures abordables : véhicules courts, faible puissance et coût entre 20 000 et 30 000 euros
+Voitures familiales : véhicules moyens ou longs, puissance moyenne et coût entre 20 000 et 35 000 euros
+Voitures haut de gamme : véhicules longs, puissance élevée et coût entre 35 000 et 50 000 euros
+Voitures de luxe : véhicules très longs, très puissants et coût supérieur à 50 000 euros
