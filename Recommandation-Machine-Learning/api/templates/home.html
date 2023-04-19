@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recommandeur de Vehicules</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+
+  <style>
+    .r-form{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .results{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+ <div class="login">
+  
+  <div class="r-form">
+    <div>
+      <h1>Recommandeur de Vehicules</h1>
+      <form action="{{ url_for('predict')}}"method="POST">
+
+          <input type="text" name="age" placeholder="Age" required="required" /><br>
+
+          <select name="sexe" id="sexe" required="required">
+            <option value="M" selected>Homme</option>
+            <option value="F">Femme</option>
+          </select><br>
+
+          <input type="text" name="taux" placeholder="Taux" required="required" /><br>
+
+          <select name="situationFamiliale" id="situationFamiliale" required="required">
+            <option value="Célibataire" selected>Célibatiare</option>
+            <option value="En Couple">En Couple</option>
+          </select><br>
+
+          <input type="text" name="nbEnfantsAcharge" placeholder="Nombre d'enfant à charge" required="required" /><br>
+
+          <select name="2emevoiture" id="2emevoiture" required="required">
+            <option value="False" selected> Une voiture</option>
+            <option value="True">Deux voitures</option>
+          </select><br>
+
+          <button type="submit" class="btn btn-primary btn-block btn-large">Recommander</button>
+
+      </form>
+      <br/>
+      <br/>
+    </div>
+  </div>
+
+  <div class="results">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    {{ pred_target | safe }}
+    <br/>
+    <br/>
+    <div>
+      <br/>
+      <br/>
+      {{ pred_features | safe }}
+    </div>
+  </div>
+
+ </div>
+
+</body>
+</html>
