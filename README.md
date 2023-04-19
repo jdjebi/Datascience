@@ -12,7 +12,7 @@ Voici une liste de mes projets, classés par type :
 
 Chaque projet comprend un résumé, des détails sur les outils utilisés et un lien vers le code sur Github. N'hésitez pas à y jeter un coup d'œil !
 
-## Projets de classification
+## Projets de NLP
 
 ### Analyse et classification de critiques de films, NLP
 ESTIA, Bidart
