@@ -12,7 +12,7 @@ Voici une liste de mes projets, classés par type :
 
 Chaque projet comprend un résumé, des détails sur les outils utilisés et un lien vers le code sur Github. N'hésitez pas à y jeter un coup d'œil !
 
-## Projets de NLP
+## Projet de NLP
 
 ### Analyse et classification de critiques de films, NLP
 ESTIA, Bidart
@@ -22,7 +22,7 @@ ESTIA, Bidart
 Outils: Scikit-Learn, NLTK, Gensim, Spacy
 Source: https://github.com/jdjebi/Datascience/tree/main/Analyse-de-sentiments-NLP
 
-## Projets de Deep Learning
+## Projet de Deep Learning
 
 ### Détection de médicaments défectueux, Deep Learning
 AI4Industry, Proditec
@@ -33,7 +33,7 @@ AI4Industry, Proditec
 Outils: TensorFlow, PyTorch
 Source: https://github.com/jdjebi/Datascience/tree/main/Detection-medicaments-defecteux-Deep-Learning
 
-## Projets de Machine Learning
+## Projet de Machine Learning
 
 ### Analyse de la clientèle d'un concessionnaire et recommandation de véhicules, Machine Learning
 - Construction d'un Datalake pour l'analyse de la clientèle
