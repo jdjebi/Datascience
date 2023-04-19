@@ -10,6 +10,8 @@ Voici une liste de mes projets, classés par type :
 | Détection de médicaments défectueux | Deep Learning | TensorFlow, PyTorch | CNN avec TensorFlow | 92% |
 | Analyse de la clientèle d'un concessionnaire et recommandation de véhicules | Machine Learning | Scikit-Learn, Hadoop/Spark, MongoDB, Oracle, HDFS, Mlflow, Docker, Flask | Clustering : KMeans, Recommandation : RandomForest | Clustering : 72%, Recommandation : 74%  |
 | Prédiction de l'affluence sur des lignes de bus | Machine Learning/ Deep Learning | Scikit-Learn, Keras | RandomForestRegressor | 50% |
+| Prédiction des salaires à partir des descriptions de postes | NLP | Scikit-Learn | Ridge | 81% |
+
 
 Chaque projet comprend un résumé, des détails sur les outils utilisés et un lien vers le code sur Github. N'hésitez pas à y jeter un coup d'œil !
 
@@ -22,6 +24,12 @@ ESTIA, Bidart
 - Entraînement d'un modèle de classification, précision de 89%
 Outils: Scikit-Learn, NLTK, Gensim, Spacy
 Source: https://github.com/jdjebi/Datascience/tree/main/Analyse-de-sentiments-NLP
+
+### Prédiction des salaires à partir des descriptions de postes
+- Nettoyage et tokenisation des descriptions
+- Entraînement d'un modèle de prédiction de salaire basé sur la vectorisation de mots avec un modèle TfidVectorizer (Précision du modèle 81%)
+Outils: Scikit-Learn, TfidVectorizer
+Source: https://github.com/jdjebi/Datascience/tree/main/Prediction-de-salaire
 
 ## Projet de Deep Learning
 
@@ -51,4 +59,6 @@ N'hésitez pas à me contacter si vous avez des questions ou des commentaires su
 ### Détection de médicaments défectueux, Deep Learning
 - Étude de la série temporelle de l'activité des bus de 2019 à 2023
 - Entraînement d'un modèle prédiction de l'affluence pour chaque ligne de bus, pour les 3 prochains jours avec une précision de 80%
+Outils: TensorFlow, PyTorch
 Source: https://github.com/jdjebi/Datascience/tree/main/Prediction-affluence-bus-Machine%20Learning-Deep%20Learning
+
