@@ -1,0 +1,5 @@
+,modele,train_silhouette_score,test_silhouette_score,params
+0,kmeans,0.6889193781327663,0.6232868795422378,"{'init': 'random', 'max_iter': 100, 'n_clusters': 5, 'n_init': 2, 'random_state': 3, 'tol': 0.0001}"
+1,kprototype,0.3418816366737832,0.3418816366737832,"{'n_clusters': 5, 'gamma': 1.0, 'n_init': 10, 'max_iter': 100}"
+2,agglomerative-clustering,0.724522465094921,0.6019460748281417,"{'linkage': 'complete', 'metric': 'euclidean', 'n_clusters': 5}"
+3,gaussian-mixture,0.643435505616854,0.5133131077123818,"{'covariance_type': 'spherical', 'init_params': 'kmeans', 'max_iter': 200, 'n_components': 4}"
